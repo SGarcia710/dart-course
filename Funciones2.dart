@@ -1,11 +1,11 @@
-// Funciones Arrow y Anónimas
+// Funciones Arrow y Anónimas(Lambda)
 main(List<String> args) {
   // Funciones Arrow
   arrowFunct(1, 2);
   int result = arrowFunctWithReturn(12, 12);
   print(result);
 
-  // Funciones anónimas
+  // Funciones anónimas(Lambda)
   List<String> lista = ["Ella", "no", "te", "ama."];
   lista.forEach((element) => print(element));
 
