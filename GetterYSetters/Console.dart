@@ -1,12 +1,13 @@
 class Console {
+  // Private Attributes (with the underscore at the start of the attribute name)
   int _id;
   String _brand;
   String _name;
 
-  //
+  // Constructor
   Console(this._id, this._brand, this._name);
 
-// Getters
+  // Getters
   int get id {
     return _id;
   }
