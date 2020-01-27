@@ -1,6 +1,6 @@
+// Herencia
 main(List<String> args) {
   Frontend dev = Frontend(1, "Sebastián", 9999999, "Reactjs");
-
   print(
       "El dev ${dev.id} llamado ${dev.name} trabaja con el framework ${dev.framework} y gana \$${dev.salary}.");
 }
